@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "GoldenKey",
+        "value": 5,
+        "description": "A small golden key which can be used to unlock golden loot boxes.",
+        "madeby": "unknown",
+        "slug": "keyicon"
+
+    } , 
+    {
+            "id": 1,
+            "title": "JadeEye",
+            "value": 20,
+            "description": "A mysterious eye-shape jewelry made out of jade.",
+            "madeby": "unknown",
+            "slug": "jadeicon"
+    } 
+     
+]

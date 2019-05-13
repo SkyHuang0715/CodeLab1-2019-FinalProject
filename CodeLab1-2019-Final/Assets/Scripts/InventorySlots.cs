@@ -31,5 +31,9 @@ public class InventorySlots : MonoBehaviour, IDropHandler
             _invent.items[slotID] = droppedItem.item;
             
         }
+        else if (droppedItem.slotIndex != slotID) //swap two item location function
+        {
+            
+        }
     }
 }

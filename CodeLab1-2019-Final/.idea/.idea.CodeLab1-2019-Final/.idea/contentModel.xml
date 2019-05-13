@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="InventoryManager.cs" t="Include" />
+          <e p="InventorySlots.cs" t="Include" />
           <e p="Itemdata.cs" t="Include" />
           <e p="ItemDatabase.cs" t="Include" />
           <e p="PanelControl.cs" t="Include" />

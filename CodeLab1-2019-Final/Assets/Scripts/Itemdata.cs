@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 //用以储存所有Item的信息
-public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragHandler
+public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragHandler, IPointerClickHandler
 {
     public Item item;
     public int slotIndex;
 
     InventoryManager _invent;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,7 @@ public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragH
         _invent = GameObject.Find("ItemData").GetComponent<InventoryManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -59,6 +56,26 @@ public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragH
         GetComponent<CanvasGroup>().blocksRaycasts = true;
         
         //注意：要使用这个功能需要在item prefab上添加canvasGroup
+    }
+    
+    
+    
+    
+    // Update is called once per frame
+    void Update()
+    {
+       
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+       
+        //鼠标右键使用物品 
+      if (eventData.button == PointerEventData.InputButton.Right)
+     {
+        Debug.Log("right click this item");
+        Destroy(gameObject);
+     }
     }
 }
 

@@ -68,6 +68,7 @@ public class InventoryManager : MonoBehaviour
                 itemObj.GetComponent<Image>().sprite = itemToAdd.Sprite;
 
                 itemObj.GetComponent<Itemdata>().item = itemToAdd;
+                itemObj.GetComponent<Itemdata>().slotIndex = i;
 
                 break;
             }

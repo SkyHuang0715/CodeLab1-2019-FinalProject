@@ -27,6 +27,8 @@ public class InventoryManager : MonoBehaviour
             slots[i].transform.SetParent(slotPanel.transform,false);
             //不加false会根据世界坐标创建子物体，maximize和窗口生成不同size
 
+            slots[i].GetComponent<InventorySlots>().slotID = i; 
+
             items.Add(new Item()); //add new item
             
         }

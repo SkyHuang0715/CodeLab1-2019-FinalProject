@@ -45,7 +45,8 @@ public class HintText : MonoBehaviour
 
             }else if (delayTime <= 0.0f )
             {
-                UItext.SetActive(false); 
+                UItext.SetActive(false);
+                hintTimer = delayTime;
             }
         }
 

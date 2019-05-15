@@ -69,7 +69,6 @@ public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragH
 
     public void OnPointerClick(PointerEventData eventData)
     {
-       
         //鼠标右键使用物品 
       if (eventData.button == PointerEventData.InputButton.Right)
      {

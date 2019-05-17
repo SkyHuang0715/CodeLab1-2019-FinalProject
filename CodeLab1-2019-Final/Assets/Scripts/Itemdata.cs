@@ -1,80 +1,60 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-//用以储存所有Item的信息
-public class Itemdata : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDragHandler, IPointerClickHandler
+public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public Item item;
-    public int slotIndex;
+	public Item item;
+	public int amount;
+	public int slotId;
 
-    InventoryManager _invent;
-    
+	private Inventory inv;
+	private Tooltip tooltip;
+	private Vector2 offset;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        _invent = GameObject.Find("ItemData").GetComponent<InventoryManager>();
-    }
+	void Start()
+	{
+		inv = GameObject.Find("Inventory").GetComponent<Inventory>();
+		tooltip = inv.GetComponent<Tooltip>();
+	}
 
-   
+	public void OnBeginDrag(PointerEventData eventData)
+	{
+		if (item != null)
+		{
+			this.transform.SetParent(this.transform.parent.parent);
+			this.transform.position = eventData.position - offset;
+			GetComponent<CanvasGroup>().blocksRaycasts = false;
+		}
+	}
 
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        if (item != null)
-        {
-            //this.transform.parent.transform.SetAsLastSibling();
-            this.transform.SetParent(transform.parent.parent);
-            this.transform.position = eventData.position;
+	public void OnDrag(PointerEventData eventData)
+	{
+		if (item != null)
+		{
+			this.transform.position = eventData.position - offset;
+		}
+	}
 
-            //在拖动时关闭raycast使鼠标位置可以被识别
-            GetComponent<CanvasGroup>().blocksRaycasts = false;
-            
-        }
-        
-        
-    }
+	public void OnEndDrag(PointerEventData eventData)
+	{
+		this.transform.SetParent(inv.slots[slotId].transform);
+		this.transform.position = inv.slots[slotId].transform.position;
+		GetComponent<CanvasGroup>().blocksRaycasts = true;
+	}
 
-    public void OnDrag(PointerEventData eventData)
-    {
-        if (item != null)
-        {
-            //this.transform.parent.transform.SetAsLastSibling();
-            this.transform.position = eventData.position;
-        }
-        
-    }
+	public void OnPointerDown(PointerEventData eventData)
+	{
+		offset = eventData.position - new Vector2(this.transform.position.x, this.transform.position.y);
+	}
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        //move all the data after drag the item
-        this.transform.SetParent(_invent.slots[slotIndex].transform);
-        this.transform.position = this.transform.parent.position;
-        
-        //记得在每一次松开鼠标时打开raycast使物品能再次被拖动
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
-        
-        //注意：要使用这个功能需要在item prefab上添加canvasGroup
-    }
-    
-    
-    
-    
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
+	public void OnPointerEnter(PointerEventData eventData)
+	{
+		tooltip.Activate(item);
+	}
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        //鼠标右键使用物品 
-      if (eventData.button == PointerEventData.InputButton.Right)
-     {
-        Debug.Log("right click this item");
-        Destroy(gameObject);
-     }
-    }
+	public void OnPointerExit(PointerEventData eventData)
+	{
+		tooltip.Deactivate();
+	}
 }
-

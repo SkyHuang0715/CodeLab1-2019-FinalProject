@@ -1,84 +1,69 @@
-﻿using System.Collections;
+﻿using UnityEngine;
+using LitJson;
 using System.Collections.Generic;
 using System.IO;
-using UnityEngine;
-using LitJson;
 
-public class ItemDatabase : MonoBehaviour
-{
-    private JsonData itemdata;
-    private List<Item> database = new List<Item>();
+public class ItemDatabase : MonoBehaviour {
+	private List<Item> database = new List<Item>();
+	private JsonData itemData;
 
-    // Start is called before the first frame update
-    void Awake()
-    {
-        itemdata = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/ItemAssets/items.json"));
-        ConstructItemDatabase();
-        Debug.Log(database[0].Descrip);
-        Debug.Log(FetchItemByID(1).Title +": "+ FetchItemByID(1).Descrip);
-    }
+	void Start()
+	{
+		itemData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items.json"));
+		ConstructItemDatabase();	
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public Item FetchItemById(int id)
+	{
+		for (int i = 0; i < database.Count; i++)
+		{
+			if (database[i].Id == id)
+			{
+				return database[i];
+			}
+		}
 
-    void ConstructItemDatabase()
-    {
-        for (int i = 0; i < itemdata.Count; i++)
-        {
-            database.Add(new Item ((int) itemdata[i]["id"],
-                                   itemdata[i]["title"].ToString(), 
-                                   (int)itemdata[i]["value"],
-                                   itemdata[i]["description"].ToString(),
-                                   itemdata[i]["madeby"].ToString(),
-                                   itemdata[i]["slug"].ToString()));
-        }
-    }//loaded every lines from the json file
-    
-    //通过ID查找物品信息
-    public Item FetchItemByID(int _id)
-    {
-        for (int i = 0; i < database.Count; i++)
-        {
-            if (_id == database[i].ID)
-            {
-                return database[i];
-            }
-        }
+		return null;
+	}
+	
+	void ConstructItemDatabase()
+	{
+		for (int i = 0; i < itemData.Count; i++)
+		{
+			Item newItem = new Item();
+			newItem.Id = (int)itemData[i]["id"];
+			newItem.Title = itemData[i]["title"].ToString();
+			newItem.Value = (int)itemData[i]["value"];
+			newItem.Power = (int)itemData[i]["stats"]["power"];
+			newItem.Defense = (int)itemData[i]["stats"]["defense"];
+			newItem.Vitality = (int)itemData[i]["stats"]["vitality"];
+			newItem.Description = itemData[i]["description"].ToString();
+			newItem.Stackable = (bool)itemData[i]["stackable"];
+			newItem.Rarity = (int)itemData[i]["rarity"];
+			newItem.Slug = itemData[i]["slug"].ToString();
+			newItem.Sprite = Resources.Load<Sprite>("Sprites/Items/" + newItem.Slug);
 
-        return null;
-    }
-    
+			database.Add(newItem);
+		}
+	}
 }
 
-//创建Item
 public class Item
 {
-    public int ID { get; set; }
-    public string Title { get; set; }
-    public int Value { get; set; }
-    public string Descrip { get; set; }
-    public string Madeby { get; set; }
-    
-    public Sprite Sprite { get; set; }
+	public int Id { get; set; }
+	public string Title { get; set; }
+	public int Value { get; set; }
+	public int Power { get; set; }
+	public int Defense { get; set; }
+	public int Vitality { get; set; }
+	public string Description { get; set; }
+	public bool Stackable { get; set; }
+	public int Rarity { get; set; }
+	public string Slug { get; set; }
+	public Sprite Sprite { get; set; }
 
-    public Item(int _id, string _title, int _value, string _des, string _mader,string _slug)
-    {
-        this.ID = _id;
-        this.Title = _title;
-        this.Value = _value;
-        this.Descrip = _des;
-        this.Madeby = _mader;
-        this.Sprite = Resources.Load<Sprite>("Items/"+_slug); //链接到图片
-        
-        Debug.Log(Resources.Load<Sprite>("Items/"+_slug));
-    }
-
-    public Item()
-    {
-        this.ID = -1;
-
-    }
+	public Item()
+	{
+		this.Id = -1;
+	}
 }

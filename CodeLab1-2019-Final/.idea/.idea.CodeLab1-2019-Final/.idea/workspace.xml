@@ -1,83 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="trying some new functions/ get message board done">
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-FinalProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ItemAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ItemAssets/items.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ItemAssets/items.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Items.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Items/jadeicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Items/jadeicon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Items/keyicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Items/keyicon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Item.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Item.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/hintText.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/hintText.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/slot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/slot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintUI/HintText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintUI/HintText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintUI/PickupItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintUI/PickupItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventoryManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventoryManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventorySlots.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InventorySlots.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Itemdata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Itemdata.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Itemdata.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Itemdata.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Itemmessage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Itemmessage/ItemMes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Itemmessage/ItemMes.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PanelControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PanelControl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson-Example.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson-Example/JsonExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson-Example/JsonExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson-Example/JsonExample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson-Example/JsonExample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/COPYING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/COPYING.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Extensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/IJsonWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/IJsonWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonMapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonMapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonMockWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonMockWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/JsonWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Lexer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Lexer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/ParserToken.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/ParserToken.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Platform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Platform.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Unity/UnityTypeBindings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityLitJson/Unity/UnityTypeBindings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorGauntlet_bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorGauntlet_bronze.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorGauntlet_grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorGauntlet_grey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorHand_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorHand_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorSword_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/cursorSword_silver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/golden-sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/golden-sword.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/steel-gloves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/steel-gloves.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/the-great-stick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Items/the-great-stick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/buttonLong_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/buttonLong_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/buttonSquare_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/buttonSquare_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/panel_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/panel_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Items.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/bagicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/bagicon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/button.png.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="615">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <marker date="1455452150000" expanded="false" signature="6:64" ph="..." />
@@ -109,26 +67,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="260">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
-                <marker date="1558087262636" expanded="false" signature="6:100" ph="..." />
-                <marker date="1558087262636" expanded="true" signature="140:2207" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="429:977" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="656:833" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1007:2032" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1123:1415" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1168:1411" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1200:1406" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1422:2029" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1467:2025" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="1499:2020" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="2075:2204" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="2118:2184" ph="{...}" />
-                <marker date="1558087262636" expanded="true" signature="2153:2180" ph="{...}" />
+                <marker date="1558124286527" expanded="false" signature="6:100" ph="..." />
+                <marker date="1558124286527" expanded="true" signature="140:2207" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="429:977" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="656:833" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1007:2032" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1123:1415" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1168:1411" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1200:1406" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1422:2029" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1467:2025" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="1499:2020" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="2075:2204" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="2118:2184" ph="{...}" />
+                <marker date="1558124286527" expanded="true" signature="2153:2180" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tooltip.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <folding>
+                <marker date="1558122724379" expanded="false" signature="6:66" ph="..." />
+                <marker date="1558122724379" expanded="true" signature="104:775" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="192:266" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="282:375" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="311:372" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="409:487" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="514:548" ph="{...}" />
+                <marker date="1558122724379" expanded="true" signature="584:772" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,10 +127,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding>
+                <marker date="1558124944689" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558124944689" expanded="true" signature="124:1067" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="301:348" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="406:668" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="453:661" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="519:576" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="593:651" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="690:865" ph="{...}" />
+                <marker date="1558124944689" expanded="true" signature="888:1065" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="771">
               <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <marker date="1455452150000" expanded="false" signature="6:84" ph="..." />
@@ -188,10 +185,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW1/Codelab1_week1/Assets/Scripts/Spawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Slot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/inventory-system-master/inventory-system/Assets/Scripts/Tooltip.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,13 +207,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventorySlots.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PanelController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="42" />
+    <option name="x" value="485" />
+    <option name="y" value="50" />
     <option name="width" value="1017" />
     <option name="height" value="690" />
   </component>
@@ -224,11 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -247,6 +243,11 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +302,8 @@
       <workItem from="1557905737919" duration="3520000" />
       <workItem from="1558062945959" duration="5373000" />
       <workItem from="1558079476265" duration="5314000" />
-      <workItem from="1558085956662" duration="1538000" />
+      <workItem from="1558085956662" duration="1992000" />
+      <workItem from="1558122410879" duration="1682000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -331,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557713689331</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backup">
+      <created>1558087672625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558087672625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64092000" />
+    <option name="totallyTimeSpent" value="66228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,10 +356,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="582" y="42" width="1017" height="690" extended-state="0" />
+    <frame x="485" y="50" width="1017" height="690" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1954023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19958203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -390,7 +399,8 @@
     <MESSAGE value="Improve Drag items" />
     <MESSAGE value="Now you can use mouse to drag items from one slot to another" />
     <MESSAGE value="right click to use item" />
-    <option name="LAST_COMMIT_MESSAGE" value="right click to use item" />
+    <MESSAGE value="backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,9 +456,69 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InventoryManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Itemmessage/ItemMes.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InventorySlots.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1455452150000" expanded="false" signature="6:64" ph="..." />
+            <marker date="1455452150000" expanded="true" signature="217:1453" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="369:480" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="534:740" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="557:737" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="789:881" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="812:878" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="933:1115" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="1171:1276" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="1333:1365" ph="{...}" />
+            <marker date="1455452150000" expanded="true" signature="1421:1451" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tooltip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <marker date="1558122724379" expanded="false" signature="6:66" ph="..." />
+            <marker date="1558122724379" expanded="true" signature="104:775" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="192:266" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="282:375" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="311:372" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="409:487" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="514:548" ph="{...}" />
+            <marker date="1558122724379" expanded="true" signature="584:772" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1558124286527" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558124286527" expanded="true" signature="140:2207" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="429:977" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="656:833" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1007:2032" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1123:1415" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1168:1411" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1200:1406" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1422:2029" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1467:2025" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="1499:2020" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="2075:2204" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="2118:2184" ph="{...}" />
+            <marker date="1558124286527" expanded="true" signature="2153:2180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="771">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
             <marker date="1455452150000" expanded="false" signature="6:84" ph="..." />
@@ -479,45 +549,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemData.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="405">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
-            <marker date="1455452150000" expanded="false" signature="6:64" ph="..." />
-            <marker date="1455452150000" expanded="true" signature="217:1453" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="369:480" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="534:740" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="557:737" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="789:881" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="812:878" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="933:1115" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="1171:1276" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="1333:1365" ph="{...}" />
-            <marker date="1455452150000" expanded="true" signature="1421:1451" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <marker date="1558087262636" expanded="false" signature="6:100" ph="..." />
-            <marker date="1558087262636" expanded="true" signature="140:2207" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="429:977" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="656:833" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1007:2032" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1123:1415" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1168:1411" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1200:1406" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1422:2029" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1467:2025" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="1499:2020" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="2075:2204" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="2118:2184" ph="{...}" />
-            <marker date="1558087262636" expanded="true" signature="2153:2180" ph="{...}" />
+            <marker date="1558124944689" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558124944689" expanded="true" signature="124:1067" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="301:348" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="406:668" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="453:661" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="519:576" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="593:651" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="690:865" ph="{...}" />
+            <marker date="1558124944689" expanded="true" signature="888:1065" ph="{...}" />
           </folding>
         </state>
       </provider>

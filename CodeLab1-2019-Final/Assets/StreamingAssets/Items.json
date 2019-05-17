@@ -1,44 +1,58 @@
 [
 	{
 		"id": 0,
-		"title": "Steel Gloves",
+		"title": "Golden Key",
 		"value": 6,
 		"stats": {
 			"power": 1,
 			"defense": 4,
 			"vitality": 2
 		},
-		"description": "Gloves made from steel. Yea.",
-		"stackable": false,
+		"description": "A small golden key that can be used to unlock lockboxes.",
+		"stackable": true,
 		"rarity": 2,
-		"slug":  "steel-gloves"
+		"slug":  "golden-key"
 	},
 	{
 		"id": 1,
-		"title": "The Great Stick",
+		"title": "Jade Eye",
 		"value": 543,
 		"stats": {
 			"power": 56,
 			"defense": 2,
 			"vitality": 54
 		},
-		"description": "It's a stick that's pretty great.",
-		"stackable": true,
+		"description": "A mysterious eye-shape jade. One of the three requirements to open Jade Fox's treasure.",
+		"stackable": false,
 		"rarity": 6,
-		"slug": "the-great-stick"
+		"slug": "jade-eye"
 	},
 	{
 		"id": 2,
-		"title": "The Golden Sword",
+		"title": "The Legend Sword",
 		"value": 234,
 		"stats": {
 			"power": 200,
 			"defense": 100,
 			"vitality": 150
 		},
-		"description": "This is the best weapon.",
+		"description": "This is the best weapon. One of the three requirements to open Jade Fox's treasure.",
 		"stackable": false,
 		"rarity": 6,
-		"slug":  "golden-sword"
+		"slug":  "legend-sword"
+	},
+                {
+		"id": 3,
+		"title": "Red Gem Ring",
+		"value": 234,
+		"stats": {
+			"power": 200,
+			"defense": 100,
+			"vitality": 150
+		},
+		"description": "Fox King's ring which represents throne. One of the three requirements to open Jade Fox's treasure.",
+		"stackable": false,
+		"rarity": 6,
+		"slug":  "gem-ring"
 	}
 ]

@@ -16,6 +16,13 @@ public class Inventory : MonoBehaviour
 	public List<Item> items = new List<Item>();
 	public List<GameObject> slots = new List<GameObject>();
 
+
+	public SphereCastpickup spherepick;
+	
+	//只添加一次的写法尝试
+	private bool done = false;
+	private bool done1 = false;
+	
 	void Start()
 	{
 		database = GetComponent<ItemDatabase>();
@@ -29,7 +36,7 @@ public class Inventory : MonoBehaviour
 			slots[i].GetComponent<Slot>().id = i;
 			slots[i].transform.SetParent(slotPanel.transform,false);
 		}
-
+/*
 		AddItem(0);
 		AddItem(1);
 		AddItem(3);
@@ -39,9 +46,31 @@ public class Inventory : MonoBehaviour
 		AddItem(0);
 		AddItem(1);
 		AddItem(1);
-		AddItem(2);
+		AddItem(2);*/
+		spherepick = GameObject.Find("ThirdPersonController").GetComponent<SphereCastpickup>();
 	}
-
+	
+	//具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西
+	//然后根据物品编号来添加到物品栏
+	void Update()
+	{
+		//捡到钥匙啦~
+		/*if (spherepick.pickupitem0 == true && done == false) 
+		{
+			AddItem(0);
+			done = true;
+			
+		}
+		
+		//拿到玉眼啦~
+		if (spherepick.pickupitem1 == true && done1 == false) 
+		{
+			AddItem(1);
+			done1 = true;
+		}*/
+	}
+	
+	
 	public void AddItem(int id)
 	{
 		Item itemToAdd = database.FetchItemById(id);
@@ -75,7 +104,7 @@ public class Inventory : MonoBehaviour
 					
 					itemObj.GetComponent<Image>().sprite = itemToAdd.Sprite;
 					itemObj.name = "Item: " + itemToAdd.Title;
-					slots[i].name = "Slot: " + itemToAdd.Title;
+					//slots[i].name = "Slot: " + itemToAdd.Title;
 					break;
 				}
 			}

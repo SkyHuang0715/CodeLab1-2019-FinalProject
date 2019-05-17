@@ -46,8 +46,9 @@ public class Inventory : MonoBehaviour
 		AddItem(0);
 		AddItem(1);
 		AddItem(1);
-		AddItem(2);*/
+		AddItem(2);
 		spherepick = GameObject.Find("ThirdPersonController").GetComponent<SphereCastpickup>();
+	*/
 	}
 	
 	//具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西

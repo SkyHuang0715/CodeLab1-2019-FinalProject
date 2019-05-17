@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/21.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SphereCastpickup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SphereCastpickup.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,40 +15,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="49" column="95" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="95" />
+            <state relative-caret-position="420">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding>
-                <marker date="1558133176474" expanded="false" signature="6:100" ph="..." />
-                <marker date="1558133176474" expanded="true" signature="140:2728" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="542:1184" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="769:946" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="947:1091" ph="/* AddItem(0); ... */" />
-                <marker date="1558133176474" expanded="true" signature="1188:1247" ph="/* 具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西 ... */" />
-                <marker date="1558133176474" expanded="true" signature="1262:1493" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1279:1490" ph="/* if (spherepick.pickupitem0 == true &amp;&amp; done == false) ... */" />
-                <marker date="1558133176474" expanded="true" signature="1526:2553" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1642:1934" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1687:1930" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1719:1925" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1941:2550" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="1986:2546" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="2018:2541" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="2596:2725" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="2639:2705" ph="{...}" />
-                <marker date="1558133176474" expanded="true" signature="2674:2701" ph="{...}" />
+                <marker date="1558133788939" expanded="false" signature="6:100" ph="..." />
+                <marker date="1558133788939" expanded="true" signature="140:2730" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="542:1186" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="769:946" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="947:1183" ph="/* AddItem(0); ... */" />
+                <marker date="1558133788939" expanded="true" signature="1190:1249" ph="/* 具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西 ... */" />
+                <marker date="1558133788939" expanded="true" signature="1264:1495" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1281:1492" ph="/* if (spherepick.pickupitem0 == true &amp;&amp; done == false) ... */" />
+                <marker date="1558133788939" expanded="true" signature="1528:2555" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1644:1936" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1689:1932" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1721:1927" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1943:2552" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="1988:2548" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="2020:2543" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="2598:2727" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="2641:2707" ph="{...}" />
+                <marker date="1558133788939" expanded="true" signature="2676:2703" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="66">
+              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <marker date="1558133551842" expanded="false" signature="6:78" ph="..." />
                 <marker date="1558133551842" expanded="true" signature="125:1871" ph="{...}" />
@@ -110,8 +109,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemDatabase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PanelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
       </list>
     </option>
   </component>
@@ -205,7 +204,7 @@
       <workItem from="1558062945959" duration="5373000" />
       <workItem from="1558079476265" duration="5314000" />
       <workItem from="1558085956662" duration="1992000" />
-      <workItem from="1558122410879" duration="7468000" />
+      <workItem from="1558122410879" duration="8305000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -256,11 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558127539269</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pickup item to inventory">
+      <created>1558133750483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558133750483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72014000" />
+    <option name="totallyTimeSpent" value="72851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,7 +324,8 @@
     <MESSAGE value="backup" />
     <MESSAGE value="fix ui &amp; panel" />
     <MESSAGE value="merge scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge scene" />
+    <MESSAGE value="pickup item to inventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="pickup item to inventory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,37 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="49" column="95" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="95" />
-          <folding>
-            <marker date="1558133176474" expanded="false" signature="6:100" ph="..." />
-            <marker date="1558133176474" expanded="true" signature="140:2728" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="542:1184" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="769:946" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="947:1091" ph="/* AddItem(0); ... */" />
-            <marker date="1558133176474" expanded="true" signature="1188:1247" ph="/* 具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西 ... */" />
-            <marker date="1558133176474" expanded="true" signature="1262:1493" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1279:1490" ph="/* if (spherepick.pickupitem0 == true &amp;&amp; done == false) ... */" />
-            <marker date="1558133176474" expanded="true" signature="1526:2553" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1642:1934" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1687:1930" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1719:1925" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1941:2550" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="1986:2546" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="2018:2541" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="2596:2725" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="2639:2705" ph="{...}" />
-            <marker date="1558133176474" expanded="true" signature="2674:2701" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="66">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
             <marker date="1558133551842" expanded="false" signature="6:78" ph="..." />
             <marker date="1558133551842" expanded="true" signature="125:1871" ph="{...}" />
@@ -492,6 +472,33 @@
             <marker date="1558133551842" expanded="true" signature="1041:1198" ph="{...}" />
             <marker date="1558133551842" expanded="true" signature="1296:1610" ph="{...}" />
             <marker date="1558133551842" expanded="true" signature="1394:1571" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <marker date="1558133788939" expanded="false" signature="6:100" ph="..." />
+            <marker date="1558133788939" expanded="true" signature="140:2730" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="542:1186" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="769:946" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="947:1183" ph="/* AddItem(0); ... */" />
+            <marker date="1558133788939" expanded="true" signature="1190:1249" ph="/* 具体要如何拾取物品，需要先找到spherecast脚本里pick了哪一样东西 ... */" />
+            <marker date="1558133788939" expanded="true" signature="1264:1495" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1281:1492" ph="/* if (spherepick.pickupitem0 == true &amp;&amp; done == false) ... */" />
+            <marker date="1558133788939" expanded="true" signature="1528:2555" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1644:1936" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1689:1932" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1721:1927" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1943:2552" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="1988:2548" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="2020:2543" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="2598:2727" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="2641:2707" ph="{...}" />
+            <marker date="1558133788939" expanded="true" signature="2676:2703" ph="{...}" />
           </folding>
         </state>
       </provider>

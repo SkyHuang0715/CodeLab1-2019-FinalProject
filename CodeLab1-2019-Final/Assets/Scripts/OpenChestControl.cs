@@ -6,29 +6,31 @@ public class OpenChestControl : MonoBehaviour
 {
     private List<Object> ChestToOpen;
 
-    public Animator ChestAnimator;
+    private Animator ChestAnimator;
 
-    public bool playanim;
+    public SphereCastpickup unlock;
     
     
     // Start is called before the first frame update
     void Start()
     {
         ChestAnimator = GetComponent<Animator>();
-        playanim = false;
+        unlock = GameObject.Find("ThirdPersonController").GetComponent<SphereCastpickup>();;
     }
 
     void Update()
     {
-        if (playanim == !playanim)
+        if (unlock.pickupitem1 == false)
         {
-            ChestAnimator.speed = 0.0f;
+            ChestAnimator.enabled = false;
+            //ChestAnimator.speed = 0.0f;
         }
         else
         {
             //OpenChestEvent();
-            ChestAnimator.speed = 1.0f;
-            ChestAnimator.Play("OpenState", 0, 0f);
+            //ChestAnimator.speed = 1.0f;
+            ChestAnimator.enabled = true;
+            ChestAnimator.Play("OpenState");
         }
         
     }

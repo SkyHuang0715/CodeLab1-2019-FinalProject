@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
+    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="open chest">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/lockbox/Mesh_Chest_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/lockbox/Mesh_Chest_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/lockbox/OpenChestAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/lockbox/OpenChestAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <marker date="1558169398508" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558169398508" expanded="true" signature="125:862" ph="{...}" />
+                <marker date="1558169398508" expanded="true" signature="319:474" ph="{...}" />
+                <marker date="1558169398508" expanded="true" signature="493:854" ph="{...}" />
+                <marker date="1558169398508" expanded="true" signature="540:645" ph="{...}" />
+                <marker date="1558169398508" expanded="true" signature="658:839" ph="{...}" />
+                <marker date="1558169398508" expanded="true" signature="681:742" ph="/* OpenChestEvent(); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="49" column="95" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="95" />
               <folding>
                 <marker date="1558133788939" expanded="false" signature="6:100" ph="..." />
                 <marker date="1558133788939" expanded="true" signature="140:2730" ph="{...}" />
@@ -43,62 +66,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <marker date="1558138178530" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558138178530" expanded="true" signature="124:1285" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="301:348" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="406:668" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="453:661" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="519:576" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="593:651" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="714:882" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="772:817" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="830:876" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="908:1083" ph="{...}" />
-                <marker date="1558138178530" expanded="true" signature="1106:1283" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state relative-caret-position="216">
+              <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
               <folding>
-                <marker date="1558166116668" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558166116668" expanded="true" signature="125:2140" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="177:274" ph="/* private Vector3 lastPosition; ... */" />
-                <marker date="1558166116668" expanded="true" signature="526:567" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="625:2138" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="672:1949" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="1088:1939" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="1178:1335" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="1438:1879" ph="{...}" />
-                <marker date="1558166116668" expanded="true" signature="1536:1840" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-              <folding>
-                <marker date="1558166116575" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558166116575" expanded="true" signature="125:696" ph="{...}" />
-                <marker date="1558166116575" expanded="true" signature="308:396" ph="{...}" />
-                <marker date="1558166116575" expanded="true" signature="415:688" ph="{...}" />
-                <marker date="1558166116575" expanded="true" signature="456:516" ph="{...}" />
-                <marker date="1558166116575" expanded="true" signature="529:673" ph="{...}" />
+                <marker date="1558169548848" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558169548848" expanded="true" signature="125:2083" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="177:274" ph="/* private Vector3 lastPosition; ... */" />
+                <marker date="1558169548848" expanded="true" signature="526:567" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="625:2081" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="672:1892" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="1088:1882" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="1178:1335" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="1438:1822" ph="{...}" />
+                <marker date="1558169548848" expanded="true" signature="1579:1783" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,14 +133,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tooltip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PanelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="517" />
-    <option name="y" value="223" />
+    <option name="x" value="702" />
+    <option name="y" value="53" />
     <option name="width" value="1110" />
     <option name="height" value="631" />
   </component>
@@ -246,7 +229,7 @@
       <workItem from="1558079476265" duration="5314000" />
       <workItem from="1558085956662" duration="1992000" />
       <workItem from="1558122410879" duration="10467000" />
-      <workItem from="1558161532213" duration="4503000" />
+      <workItem from="1558161532213" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -325,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558145691496</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="open chest">
+      <created>1558166376431</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558166376431</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79516000" />
+    <option name="totallyTimeSpent" value="82709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,7 +331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="517" y="223" width="1110" height="631" extended-state="0" />
+    <frame x="702" y="53" width="1110" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18571429" />
@@ -391,7 +381,8 @@
     <MESSAGE value="tutorials" />
     <MESSAGE value="bag icon" />
     <MESSAGE value="new models" />
-    <option name="LAST_COMMIT_MESSAGE" value="new models" />
+    <MESSAGE value="open chest" />
+    <option name="LAST_COMMIT_MESSAGE" value="open chest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,10 +496,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <marker date="1558138178530" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558138178530" expanded="true" signature="124:1285" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="301:348" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="406:668" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="453:661" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="519:576" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="593:651" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="714:882" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="772:817" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="830:876" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="908:1083" ph="{...}" />
+            <marker date="1558138178530" expanded="true" signature="1106:1283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="49" column="95" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="95" />
           <folding>
             <marker date="1558133788939" expanded="false" signature="6:100" ph="..." />
             <marker date="1558133788939" expanded="true" signature="140:2730" ph="{...}" />
@@ -532,57 +544,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
-            <marker date="1558138178530" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558138178530" expanded="true" signature="124:1285" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="301:348" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="406:668" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="453:661" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="519:576" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="593:651" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="714:882" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="772:817" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="830:876" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="908:1083" ph="{...}" />
-            <marker date="1558138178530" expanded="true" signature="1106:1283" ph="{...}" />
+            <marker date="1558169398508" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558169398508" expanded="true" signature="125:862" ph="{...}" />
+            <marker date="1558169398508" expanded="true" signature="319:474" ph="{...}" />
+            <marker date="1558169398508" expanded="true" signature="493:854" ph="{...}" />
+            <marker date="1558169398508" expanded="true" signature="540:645" ph="{...}" />
+            <marker date="1558169398508" expanded="true" signature="658:839" ph="{...}" />
+            <marker date="1558169398508" expanded="true" signature="681:742" ph="/* OpenChestEvent(); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        <state relative-caret-position="216">
+          <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
           <folding>
-            <marker date="1558166116668" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558166116668" expanded="true" signature="125:2140" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="177:274" ph="/* private Vector3 lastPosition; ... */" />
-            <marker date="1558166116668" expanded="true" signature="526:567" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="625:2138" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="672:1949" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="1088:1939" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="1178:1335" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="1438:1879" ph="{...}" />
-            <marker date="1558166116668" expanded="true" signature="1536:1840" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding>
-            <marker date="1558166116575" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558166116575" expanded="true" signature="125:696" ph="{...}" />
-            <marker date="1558166116575" expanded="true" signature="308:396" ph="{...}" />
-            <marker date="1558166116575" expanded="true" signature="415:688" ph="{...}" />
-            <marker date="1558166116575" expanded="true" signature="456:516" ph="{...}" />
-            <marker date="1558166116575" expanded="true" signature="529:673" ph="{...}" />
+            <marker date="1558169548848" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558169548848" expanded="true" signature="125:2083" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="177:274" ph="/* private Vector3 lastPosition; ... */" />
+            <marker date="1558169548848" expanded="true" signature="526:567" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="625:2081" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="672:1892" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="1088:1882" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="1178:1335" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="1438:1822" ph="{...}" />
+            <marker date="1558169548848" expanded="true" signature="1579:1783" ph="{...}" />
           </folding>
         </state>
       </provider>

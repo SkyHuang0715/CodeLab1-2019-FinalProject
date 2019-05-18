@@ -55,10 +55,8 @@ public class SphereCastpickup : MonoBehaviour
                 //检测是否开箱拿到玉眼
                 if (c.gameObject.name == "JadeEyeChest")
                 {
-                    if (GameObject.Find("Item: Golden Key")) //你拿到钥匙了吗（前置要求的写法）
+                    if (GameObject.Find("Item: Golden Key") && GameObject.Find("Item: Jade Eye")==null) //你拿到钥匙了吗（前置要求的写法）
                     {
-                        opened.playanim = true;
-                        Debug.Log(opened.playanim);
                         pickupitem1 = true;
                         //Destroy(c.gameObject,2);
                         inv.AddItem(1);

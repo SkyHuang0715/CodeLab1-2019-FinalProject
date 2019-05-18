@@ -4,7 +4,7 @@
     <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="630">
               <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <marker date="1558138178530" expanded="false" signature="6:78" ph="..." />
@@ -226,7 +226,7 @@
       <workItem from="1558062945959" duration="5373000" />
       <workItem from="1558079476265" duration="5314000" />
       <workItem from="1558085956662" duration="1992000" />
-      <workItem from="1558122410879" duration="9617000" />
+      <workItem from="1558122410879" duration="10202000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -291,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558135309545</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bag icon">
+      <created>1558138473884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558138473884</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74163000" />
+    <option name="totallyTimeSpent" value="74748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +362,8 @@
     <MESSAGE value="merge scene" />
     <MESSAGE value="pickup item to inventory" />
     <MESSAGE value="tutorials" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorials" />
+    <MESSAGE value="bag icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="bag icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PanelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="630">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <marker date="1558138178530" expanded="false" signature="6:78" ph="..." />

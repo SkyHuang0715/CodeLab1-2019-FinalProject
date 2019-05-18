@@ -32,6 +32,19 @@ public class PanelController : MonoBehaviour
         } 
     }
 
+    //是否能点击图标打开呢
+    public void ClickIcon()
+    {
+        if (GetComponent<CanvasGroup>().alpha == 0)
+        {
+            Openpanel();
+        }
+        else
+        {
+            Closepanel();
+        }
+    }
+    
     void Openpanel()
     {
         GetComponent<CanvasGroup>().alpha = 1;

@@ -21,6 +21,8 @@ public class SphereCastpickup : MonoBehaviour
     public bool pickupitem1;
 
     public Inventory inv;
+
+    public OpenChestControl opened;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,8 @@ public class SphereCastpickup : MonoBehaviour
             pickobjs = Physics.OverlapSphere(transform.position + Vector3.up, 2.0f, mask);
             
             inv = GameObject.Find("Inventory").GetComponent<Inventory>();
+            opened = GameObject.Find("JadeEyeChest").GetComponent<OpenChestControl>();
+            
             //objToMove = new List<Transform>();
             foreach (Collider c in pickobjs)
             {
@@ -49,13 +53,16 @@ public class SphereCastpickup : MonoBehaviour
                 }
                 
                 //检测是否开箱拿到玉眼
-                if (c.gameObject.name == "JadeEye")
+                if (c.gameObject.name == "JadeEyeChest")
                 {
                     if (GameObject.Find("Item: Golden Key")) //你拿到钥匙了吗（前置要求的写法）
                     {
+                        opened.playanim = true;
+                        Debug.Log(opened.playanim);
                         pickupitem1 = true;
-                        Destroy(c.gameObject,2);
+                        //Destroy(c.gameObject,2);
                         inv.AddItem(1);
+                        
                     }
                     
                 }

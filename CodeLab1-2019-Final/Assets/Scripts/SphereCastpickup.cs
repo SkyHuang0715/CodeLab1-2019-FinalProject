@@ -19,6 +19,8 @@ public class SphereCastpickup : MonoBehaviour
     //关于捡起物品是否发生
     public bool pickupitem0;
     public bool pickupitem1;
+    public bool pickupitem2;
+    public bool pickupitem3;
 
     public Inventory inv;
 
@@ -64,6 +66,23 @@ public class SphereCastpickup : MonoBehaviour
                     }
                     
                 }
+                
+                //检测青云剑
+                if (c.gameObject.name == "LegendSword")
+                {
+                    pickupitem2 = true;
+                    Destroy(c.gameObject,2);
+                    inv.AddItem(2);
+                }
+               
+                //检测宝石戒指
+                if (c.gameObject.name == "gemRing")
+                {
+                    pickupitem3 = true;
+                    Destroy(c.gameObject,2);
+                    inv.AddItem(3);
+                }
+                
                 //objToMove.Add(c.transform);
             }
         }

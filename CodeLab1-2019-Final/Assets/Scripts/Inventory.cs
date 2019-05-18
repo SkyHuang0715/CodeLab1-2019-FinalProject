@@ -20,8 +20,8 @@ public class Inventory : MonoBehaviour
 	public SphereCastpickup spherepick;
 	
 	//只添加一次的写法尝试
-	private bool done = false;
-	private bool done1 = false;
+	//private bool done = false;
+	//private bool done1 = false;
 	
 	void Start()
 	{

@@ -33,6 +33,10 @@ public class SphereCastpickup : MonoBehaviour
     private GameObject findsword;
     private GameObject findring;
     
+    //让我们来加入提示语吧
+    public HintInfo newHints;
+    public bool staying;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -58,8 +62,21 @@ public class SphereCastpickup : MonoBehaviour
             findring = GameObject.Find("Item: Red Gem Ring");
             
             //定义一下提示文字
+            newHints = GameObject.Find("HintPanel").GetComponent<HintInfo>();
             
-            //objToMove = new List<Transform>();
+            //在什么都没碰到的时候出现提示
+            if (staying == false)
+            {
+                newHints.mes0 = true;
+                newHints.HintMes();
+            }
+            else if(staying == true)
+            {
+                newHints.mes0 = false; //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
+            }
+
+            
+            //那当你碰到的时候呢
             foreach (Collider c in pickobjs)
             {
                 //检测是否碰到钥匙
@@ -83,7 +100,8 @@ public class SphereCastpickup : MonoBehaviour
                     //如果没有钥匙
                     else
                     {
-                        
+                        newHints.mes1 = true;
+                        newHints.HintMes();
                     }
                     
                 }
@@ -114,17 +132,38 @@ public class SphereCastpickup : MonoBehaviour
                         inv.AddItem(0);
                         
                     }
+                    //那如果没拿全东西呢
+                    else
+                    {
+                        newHints.mes2 = true;
+                        newHints.HintMes();
+                    }
                     
                 }
-                //objToMove.Add(c.transform);
+
+   
             }
+           
+        }
+         Debug.Log(staying);
+
+    }
+
+    //测一测物品们有没有被碰到呢
+    private void OnTriggerEnter(Collider pickobj)
+    {
+        if (pickobj.CompareTag("ItemToFind"))
+        {
+            staying = true;
+        }
+ 
+    }
+    private void OnTriggerExit(Collider pickobj)
+    {
+        if (pickobj.CompareTag("ItemToFind"))
+        { 
+            staying = false;
         }
 
-       // foreach (Transform t in objToMove)
-        {
-            //t.position += transform.position - lastPosition;
-            
-        }//Position = transform.position;
-        
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SphereCastpickup : MonoBehaviour
 {
@@ -130,7 +131,7 @@ public class SphereCastpickup : MonoBehaviour
                         pickupitem0 = true;
                         //Destroy(c.gameObject,2);
                         inv.AddItem(0);
-                        
+                        SceneManager.LoadScene(2);
                     }
                     //那如果没拿全东西呢
                     else
@@ -141,12 +142,10 @@ public class SphereCastpickup : MonoBehaviour
                     
                 }
 
-   
             }
            
         }
-         Debug.Log(staying);
-
+         //Debug.Log(staying);
     }
 
     //测一测物品们有没有被碰到呢

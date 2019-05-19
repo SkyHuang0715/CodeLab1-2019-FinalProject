@@ -34,6 +34,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AudioPlayer.cs" t="Include" />
+          <e p="HintInfo.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
           <e p="Itemdata.cs" t="Include" />
           <e p="ItemDatabase.cs" t="Include" />

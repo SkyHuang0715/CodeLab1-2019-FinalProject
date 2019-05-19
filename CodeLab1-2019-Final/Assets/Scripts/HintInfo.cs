@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HintInfo : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class HintInfo : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            myText.GetComponent<Text>().text = "You require a golden key to open the chest.";
             StartCoroutine(Hintshow());
         }
 

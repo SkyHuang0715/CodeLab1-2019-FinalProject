@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asian Far East Environment/Demo 1/Demo 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,14 +65,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HintInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <marker date="1558230143791" expanded="true" signature="6:78" ph="..." />
-                <marker date="1558230143791" expanded="true" signature="117:565" ph="{...}" />
-                <marker date="1558230143791" expanded="true" signature="217:339" ph="{...}" />
-                <marker date="1558230143791" expanded="true" signature="264:324" ph="{...}" />
-                <marker date="1558230143791" expanded="true" signature="372:558" ph="{...}" />
+                <marker date="1558231333371" expanded="true" signature="6:100" ph="..." />
+                <marker date="1558231333371" expanded="true" signature="139:680" ph="{...}" />
+                <marker date="1558231333371" expanded="true" signature="238:454" ph="{...}" />
+                <marker date="1558231333371" expanded="true" signature="285:439" ph="{...}" />
+                <marker date="1558231333371" expanded="true" signature="487:673" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
               <folding>
                 <marker date="1558226968450" expanded="false" signature="6:131" ph="..." />
                 <marker date="1558226968450" expanded="true" signature="178:3711" ph="{...}" />
@@ -162,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="217" />
+    <option name="x" value="467" />
+    <option name="y" value="225" />
     <option name="width" value="1110" />
     <option name="height" value="631" />
   </component>
@@ -253,7 +252,7 @@
       <workItem from="1558085956662" duration="1992000" />
       <workItem from="1558122410879" duration="10467000" />
       <workItem from="1558161532213" duration="8338000" />
-      <workItem from="1558204652954" duration="11515000" />
+      <workItem from="1558204652954" duration="12687000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -353,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558211150740</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hint text and disable">
+      <created>1558230279623</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558230279623</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94866000" />
+    <option name="totallyTimeSpent" value="96038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +375,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="217" width="1110" height="631" extended-state="0" />
+    <frame x="467" y="225" width="1110" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18952382" />
@@ -422,7 +428,8 @@
     <MESSAGE value="open chest" />
     <MESSAGE value="animation and bug fix" />
     <MESSAGE value="audio navigate" />
-    <option name="LAST_COMMIT_MESSAGE" value="audio navigate" />
+    <MESSAGE value="hint text and disable" />
+    <option name="LAST_COMMIT_MESSAGE" value="hint text and disable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
             <marker date="1558226968450" expanded="false" signature="6:131" ph="..." />
             <marker date="1558226968450" expanded="true" signature="178:3711" ph="{...}" />
@@ -642,14 +649,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HintInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1558230143791" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558230143791" expanded="true" signature="117:565" ph="{...}" />
-            <marker date="1558230143791" expanded="true" signature="217:339" ph="{...}" />
-            <marker date="1558230143791" expanded="true" signature="264:324" ph="{...}" />
-            <marker date="1558230143791" expanded="true" signature="372:558" ph="{...}" />
+            <marker date="1558231333371" expanded="true" signature="6:100" ph="..." />
+            <marker date="1558231333371" expanded="true" signature="139:680" ph="{...}" />
+            <marker date="1558231333371" expanded="true" signature="238:454" ph="{...}" />
+            <marker date="1558231333371" expanded="true" signature="285:439" ph="{...}" />
+            <marker date="1558231333371" expanded="true" signature="487:673" ph="{...}" />
           </folding>
         </state>
       </provider>

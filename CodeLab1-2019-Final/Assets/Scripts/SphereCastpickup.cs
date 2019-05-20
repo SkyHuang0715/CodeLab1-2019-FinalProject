@@ -36,7 +36,7 @@ public class SphereCastpickup : MonoBehaviour
     
     //让我们来加入提示语吧
     public HintInfo newHints;
-    public bool staying;
+    public int staying =0;
     
     // Start is called before the first frame update
     void Start()
@@ -66,11 +66,13 @@ public class SphereCastpickup : MonoBehaviour
             newHints = GameObject.Find("HintPanel").GetComponent<HintInfo>();
             
             //在什么都没碰到的时候出现提示
-            if (staying == false)
+            if (staying == 0)
             {
+                Debug.Log(staying);
                 newHints.HintMes1();
             }
             else 
+            
             {
                  //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
             
@@ -80,7 +82,7 @@ public class SphereCastpickup : MonoBehaviour
             foreach (Collider c in pickobjs)
             {
                 //检测是否碰到钥匙
-                if (c.gameObject.name == "Cube" && GameObject.Find("Item: Golden Key") == null)
+                if (c.gameObject.name == "gold_key" && GameObject.Find("Item: Golden Key") == null)
                 {
                     newHints.HintMes0();
 
@@ -122,13 +124,17 @@ public class SphereCastpickup : MonoBehaviour
                 }
 
                 //检测青云剑
-                if (c.gameObject.name == "LegendSword")
+                if (c.gameObject.name == "LegendSword" && GameObject.Find("Item: The Legend Sword") == null)
                 {
                     newHints.HintMes0();
                     
                     pickupitem2 = true;
                     Destroy(c.gameObject, 2);
                     inv.AddItem(2);
+                }
+                else
+                {
+                    newHints.HintMes1();
                 }
 
                 //检测宝石戒指
@@ -139,6 +145,10 @@ public class SphereCastpickup : MonoBehaviour
                     pickupitem3 = true;
                     Destroy(c.gameObject, 2);
                     inv.AddItem(3);
+                }
+                else
+                {
+                    newHints.HintMes1();
                 }
 
                 //最终的宝藏
@@ -163,7 +173,7 @@ public class SphereCastpickup : MonoBehaviour
            
         }
         
-         //Debug.Log(staying);
+         Debug.Log(staying);
     }
 
     //测一测物品们有没有被碰到呢
@@ -171,7 +181,7 @@ public class SphereCastpickup : MonoBehaviour
     {
         if (pickobj.CompareTag("ItemToFind"))
         {
-            staying = true;
+            staying ++;
         }
  
     }
@@ -179,7 +189,7 @@ public class SphereCastpickup : MonoBehaviour
     {
         if (pickobj.CompareTag("ItemToFind"))
         { 
-            staying = false;
+            staying --;
         }
 
     }

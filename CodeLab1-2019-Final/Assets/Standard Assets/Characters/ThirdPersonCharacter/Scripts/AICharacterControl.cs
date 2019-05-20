@@ -45,7 +45,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 character.Move(Vector3.zero, false, false,false);
                 
             }
-            else
+            else if(playertouch ==true)
             {
                 agent.speed = 0;
                 character.Move(Vector3.zero, false, false,false);

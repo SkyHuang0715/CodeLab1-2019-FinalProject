@@ -78,6 +78,7 @@ public class NPCtalk : MonoBehaviour
        // }
         else
         {
+            dialog.SetActive(false);
             //NPCstanding.playertouch = false;//没触碰时会继续闲逛
         }
     }

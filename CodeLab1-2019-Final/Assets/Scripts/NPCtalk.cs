@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NPCtalk : MonoBehaviour
 {
@@ -15,40 +16,43 @@ public class NPCtalk : MonoBehaviour
     private int index = 0;
 
 //用于显示对话的GUI Text
-    public GUIText NPCText;
-
+    public Text NPCText;
+    public GameObject player;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
         //从角色位置向NPC发射一条经过鼠标位置的射线
-        Ray mRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray mRay = new Ray(player.transform.position, player.transform.forward);
         RaycastHit mHi;
         //判断是否击中了NPC
         if (Physics.Raycast(mRay, out mHi, 10))
         {
-            if (mHi.collider.gameObject.tag == "NPC")
-
-               // 点击鼠标， 就会进行对话
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            if (mHi.collider.gameObject.CompareTag("NPC"))
             {
-            //绘制指定索引的对话文本
-                if (index < mData.Length)
+                Debug.Log("Yes");
+
+                // 点击鼠标， 就会进行对话
+                if (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
                 {
-                    NPCText.text = "NPC:" + mData[index];
-                    index = index + 1;
-                }
-                else
-                {
-                    NPCText.enabled = false; //不显示
+                    //绘制指定索引的对话文本
+                    if (index < mData.Length)
+                    {
+                        NPCText.text = "NPC:" + mData[index];
+                        index = index + 1;
+                    }
+                    else
+                    {
+                        NPCText.enabled = false; //不显示
 //index=0;
+                    }
                 }
             }
         }

@@ -45,17 +45,17 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		void Update()
 		{
-			if (Input.GetKey(KeyCode.E))//new animation
+			/*if (Input.GetKey(KeyCode.E))//new animation
 			{
 				m_Animator.SetBool("Gather", true);
 			}
 			else
 			{
 				m_Animator.SetBool("Gather", false);
-			}
+			}*/
 		}
 
-		public void Move(Vector3 move, bool crouch, bool jump)
+		public void Move(Vector3 move, bool crouch, bool jump, bool gather)
 		{
 
 			// convert the world relative moveInput vector into a local-relative
@@ -73,7 +73,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			// control and velocity handling is different when grounded and airborne:
 			if (m_IsGrounded)
 			{
-				HandleGroundedMovement(crouch, jump);
+				HandleGroundedMovement(crouch, jump, gather);
 			}
 			else
 			{
@@ -83,6 +83,15 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			ScaleCapsuleForCrouching(crouch);
 			PreventStandingInLowHeadroom();
 
+			if (m_IsGrounded && gather)
+			{
+				if (m_Gathering) return;
+				m_Gathering = true;
+			}
+			else
+			{
+				m_Gathering = false;
+			}
 			// send input and other state parameters to the animator
 			UpdateAnimator(move);
 		}
@@ -134,6 +143,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
 			m_Animator.SetBool("Crouch", m_Crouching);
 			m_Animator.SetBool("OnGround", m_IsGrounded);
+			m_Animator.SetBool("Gather", m_Gathering);
 			
 			if (!m_IsGrounded)
 			{
@@ -176,7 +186,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		}
 
 
-		void HandleGroundedMovement(bool crouch, bool jump)
+		void HandleGroundedMovement(bool crouch, bool jump, bool gather)
 		{
 			// check whether conditions are right to allow a jump:
 			if (jump && !crouch && m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))

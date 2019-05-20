@@ -34,20 +34,20 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 agent.SetDestination(target.transform.position);
 
             if (agent.remainingDistance > agent.stoppingDistance && playertouch == false)
-            { character.Move(agent.desiredVelocity, false, false);}
+            { character.Move(agent.desiredVelocity, false, false,false);}
            
             else if (agent.remainingDistance <= agent.stoppingDistance && playertouch == false)
             {
-                character.Move(Vector3.zero, false, false);
+                character.Move(Vector3.zero, false, false,false);
                 
             }
-            else if (playertouch == true)
+            else 
             {
-                character.Move(Vector3.zero, false, false);
+                character.Move(Vector3.zero, false, false,false);
             }
 
             
-            Debug.Log(playertouch);
+            //Debug.Log(playertouch);
         }
 
 

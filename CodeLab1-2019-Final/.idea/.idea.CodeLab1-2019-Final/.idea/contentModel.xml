@@ -38,6 +38,7 @@
           <e p="Inventory.cs" t="Include" />
           <e p="Itemdata.cs" t="Include" />
           <e p="ItemDatabase.cs" t="Include" />
+          <e p="NPCtalk.cs" t="Include" />
           <e p="OpenChestControl.cs" t="Include" />
           <e p="PanelController.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />

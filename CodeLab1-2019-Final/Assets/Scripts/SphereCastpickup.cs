@@ -68,61 +68,79 @@ public class SphereCastpickup : MonoBehaviour
             //在什么都没碰到的时候出现提示
             if (staying == false)
             {
-                newHints.mes0 = true;
-                newHints.HintMes();
+                newHints.HintMes1();
             }
-            else if(staying == true)
+            else 
             {
-                newHints.mes0 = false; //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
-            }
+                 //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
+            
 
             
             //那当你碰到的时候呢
             foreach (Collider c in pickobjs)
             {
                 //检测是否碰到钥匙
-                if (c.gameObject.name == "Cube")
+                if (c.gameObject.name == "Cube" && GameObject.Find("Item: Golden Key") == null)
                 {
+                    newHints.HintMes0();
+
                     pickupitem0 = true;
-                    Destroy(c.gameObject,2);
+                    Destroy(c.gameObject, 2);
                     inv.AddItem(0);
+ 
+                }
+                else
+                {
+                    //newHints.mes0 = true;
                 }
                 
+
                 //检测是否开箱拿到玉眼
                 if (c.gameObject.name == "JadeEyeChest")
                 {
-                    if (findkey && GameObject.Find("Item: Jade Eye")==null) //你拿到钥匙了吗（前置要求的写法）
+                    if (findkey && GameObject.Find("Item: Jade Eye") == null) //你拿到钥匙了吗（前置要求的写法）
                     {
+                        newHints.HintMes0();
+                        
                         pickupitem1 = true;
                         //Destroy(c.gameObject,2);
                         inv.AddItem(1);
-                        
+
                     }
                     //如果没有钥匙
+                    else if(findkey == false)
+                    {
+                        newHints.HintMes2();
+                        //newHints.HintMes();
+                    }
+                    //如果已经捡过
                     else
                     {
-                        newHints.mes1 = true;
-                        newHints.HintMes();
+                         newHints.HintMes1();
                     }
-                    
+
                 }
-                
+
                 //检测青云剑
                 if (c.gameObject.name == "LegendSword")
                 {
+                    newHints.HintMes0();
+                    
                     pickupitem2 = true;
-                    Destroy(c.gameObject,2);
+                    Destroy(c.gameObject, 2);
                     inv.AddItem(2);
                 }
-               
+
                 //检测宝石戒指
                 if (c.gameObject.name == "gemRing")
                 {
+                    newHints.HintMes0();
+                    
                     pickupitem3 = true;
-                    Destroy(c.gameObject,2);
+                    Destroy(c.gameObject, 2);
                     inv.AddItem(3);
                 }
-                
+
                 //最终的宝藏
                 if (c.gameObject.name == "TreasureChest")
                 {
@@ -136,15 +154,15 @@ public class SphereCastpickup : MonoBehaviour
                     //那如果没拿全东西呢
                     else
                     {
-                        newHints.mes2 = true;
-                        newHints.HintMes();
+                        newHints.HintMes3();
                     }
-                    
-                }
 
+                }
+            }
             }
            
         }
+        
          //Debug.Log(staying);
     }
 

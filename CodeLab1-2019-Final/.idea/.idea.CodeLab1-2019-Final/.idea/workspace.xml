@@ -3,43 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/gemRing.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/gemRing.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/11.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitlePage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitlePage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyi.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyi.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/001_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/001_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/002_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/002_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/003_ati1out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/003_ati1out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/018_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/018_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/019_bc6hout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/019_bc6hout.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/027_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/027_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/028_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/028_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/029_ati1out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/029_ati1out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/034_bc7out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/034_bc7out.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material 3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wangyitex/New Material.mat.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
@@ -129,28 +93,6 @@
                 <marker date="1558389582562" expanded="true" signature="5056:5100" ph="{...}" />
                 <marker date="1558389582562" expanded="true" signature="5157:5261" ph="{...}" />
                 <marker date="1558389582562" expanded="true" signature="5209:5254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <marker date="1558392641524" expanded="true" signature="6:135" ph="..." />
-                <marker date="1558392641524" expanded="true" signature="178:2297" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="364:486" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="508:943" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="546:929" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="962:1331" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="1051:1325" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="1403:1492" ph="/* public void LoadSceneOnClick() ... */" />
-                <marker date="1558392641524" expanded="true" signature="1648:2295" ph="{...}" />
-                <marker date="1558392641524" expanded="true" signature="1659:1874" ph="/* This line waits for 3 seconds before executing the next line in the coroutine. ... */" />
-                <marker date="1558392641524" expanded="true" signature="2246:2288" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -246,8 +188,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="184" />
+    <option name="x" value="258" />
+    <option name="y" value="182" />
     <option name="width" value="1110" />
     <option name="height" value="631" />
   </component>
@@ -339,7 +281,7 @@
       <workItem from="1558161532213" duration="8338000" />
       <workItem from="1558204652954" duration="35613000" />
       <workItem from="1558317425616" duration="13129000" />
-      <workItem from="1558372896684" duration="13207000" />
+      <workItem from="1558372896684" duration="13877000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -502,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558377697769</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="optimize scene loader">
+      <created>1558392913958</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1558392913958</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145300000" />
+    <option name="totallyTimeSpent" value="145970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +467,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="340" y="184" width="1110" height="631" extended-state="0" />
+    <frame x="258" y="182" width="1110" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19714285" />
@@ -580,7 +529,8 @@
     <MESSAGE value="fix ai animator" />
     <MESSAGE value="fix ai movement" />
     <MESSAGE value="interact with NPC" />
-    <option name="LAST_COMMIT_MESSAGE" value="interact with NPC" />
+    <MESSAGE value="optimize scene loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize scene loader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,6 +859,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <marker date="1558392641524" expanded="true" signature="6:135" ph="..." />
+            <marker date="1558392641524" expanded="true" signature="178:2297" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="364:486" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="508:943" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="546:929" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="962:1331" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="1051:1325" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="1403:1492" ph="/* public void LoadSceneOnClick() ... */" />
+            <marker date="1558392641524" expanded="true" signature="1648:2295" ph="{...}" />
+            <marker date="1558392641524" expanded="true" signature="1659:1874" ph="/* This line waits for 3 seconds before executing the next line in the coroutine. ... */" />
+            <marker date="1558392641524" expanded="true" signature="2246:2288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -940,26 +910,6 @@
             <marker date="1558389582562" expanded="true" signature="5056:5100" ph="{...}" />
             <marker date="1558389582562" expanded="true" signature="5157:5261" ph="{...}" />
             <marker date="1558389582562" expanded="true" signature="5209:5254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <marker date="1558392641524" expanded="true" signature="6:135" ph="..." />
-            <marker date="1558392641524" expanded="true" signature="178:2297" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="364:486" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="508:943" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="546:929" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="962:1331" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="1051:1325" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="1403:1492" ph="/* public void LoadSceneOnClick() ... */" />
-            <marker date="1558392641524" expanded="true" signature="1648:2295" ph="{...}" />
-            <marker date="1558392641524" expanded="true" signature="1659:1874" ph="/* This line waits for 3 seconds before executing the next line in the coroutine. ... */" />
-            <marker date="1558392641524" expanded="true" signature="2246:2288" ph="{...}" />
           </folding>
         </state>
       </provider>

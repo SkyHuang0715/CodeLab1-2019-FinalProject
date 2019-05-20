@@ -34,15 +34,20 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 agent.SetDestination(target.transform.position);
 
             if (agent.remainingDistance > agent.stoppingDistance && playertouch == false)
-            { character.Move(agent.desiredVelocity, false, false,false);}
+            {
+                agent.speed = 0.4f;
+                character.Move(agent.desiredVelocity, false, false,false);
+            }
            
             else if (agent.remainingDistance <= agent.stoppingDistance && playertouch == false)
             {
+                agent.speed = 0;
                 character.Move(Vector3.zero, false, false,false);
                 
             }
-            else 
+            else
             {
+                agent.speed = 0;
                 character.Move(Vector3.zero, false, false,false);
             }
 
@@ -65,7 +70,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
            // characterstop = false;
         }
 
-        private void OnTriggerEnter(Collider other)
+       /* private void OnTriggerEnter(Collider other)
         {
            
             if (other.CompareTag("Player")) //if player attached npc
@@ -80,6 +85,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 playertouch = false;
             }
-        }
+        }*/
     }
 }

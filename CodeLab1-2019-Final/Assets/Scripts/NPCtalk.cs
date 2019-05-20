@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class NPCtalk : MonoBehaviour
 {
+    public AICharacterControl NPCstanding;
     //定义NPC对话数据
     private string[] mData =
     {
-        "你好,我是NPC", "欢迎来到幻想世界",
+        "Hello, I'm NPC", "欢迎来到幻想世界",
         "可以请你帮我去打怪物吗？", "我会给你一定的奖励", "请打死守在怪物洞口前的侍卫兵", "我旁边的南瓜可以增加你的生命值"
     };
 
@@ -24,6 +26,7 @@ public class NPCtalk : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        NPCstanding = GameObject.FindWithTag("NPC").GetComponent<AICharacterControl>();
     }
 
     // Update is called once per frame
@@ -31,13 +34,16 @@ public class NPCtalk : MonoBehaviour
     {
         //从角色位置向NPC发射一条经过鼠标位置的射线
         Ray mRay = new Ray(player.transform.position, player.transform.forward);
+        Debug.DrawRay(player.transform.position+Vector3.up, player.transform.forward,Color.cyan);
         RaycastHit mHi;
         //判断是否击中了NPC
         if (Physics.Raycast(mRay, out mHi, 10))
         {
             if (mHi.collider.gameObject.CompareTag("NPC"))
             {
+                
                 Debug.Log("Yes");
+                NPCstanding.playertouch = true;
 
                 // 点击鼠标， 就会进行对话
                 if (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
@@ -55,6 +61,10 @@ public class NPCtalk : MonoBehaviour
                     }
                 }
             }
+        }
+        else
+        {
+            NPCstanding.playertouch = false;
         }
     }
 }

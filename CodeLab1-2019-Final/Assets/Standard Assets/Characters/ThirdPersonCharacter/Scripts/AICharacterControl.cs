@@ -70,7 +70,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
            // characterstop = false;
         }
 
-       /* private void OnTriggerEnter(Collider other)
+       //也给NPC一个测试范围
+        private void OnTriggerEnter(Collider other)
         {
            
             if (other.CompareTag("Player")) //if player attached npc
@@ -85,6 +86,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 playertouch = false;
             }
-        }*/
+        }
     }
 }

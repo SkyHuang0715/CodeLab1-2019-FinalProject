@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
+    <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="fix hint ui bugs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HintInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-548">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <marker date="1558321591456" expanded="false" signature="6:114" ph="..." />
                 <marker date="1558321591456" expanded="true" signature="153:2269" ph="{...}" />
@@ -83,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1985">
-              <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+            <state relative-caret-position="-83">
+              <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
               <folding>
                 <marker date="1558321636300" expanded="false" signature="6:166" ph="..." />
                 <marker date="1558321636300" expanded="true" signature="213:4974" ph="{...}" />
@@ -118,6 +117,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+              <folding>
+                <marker date="1558341896757" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558341896757" expanded="true" signature="116:1253" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="168:280" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="438:451" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="509:1251" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="711:1245" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="887:1235" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="969:1102" ph="{...}" />
+                <marker date="1558341896757" expanded="true" signature="1123:1221" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -141,6 +160,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenChestControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW1/Codelab1_week1/Assets/Scripts/Spawner.cs" root0="SKIP_HIGHLIGHTING" />
@@ -172,12 +192,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HintInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="y" value="174" />
+    <option name="x" value="424" />
+    <option name="y" value="329" />
     <option name="width" value="1110" />
     <option name="height" value="631" />
   </component>
@@ -268,7 +289,7 @@
       <workItem from="1558122410879" duration="10467000" />
       <workItem from="1558161532213" duration="8338000" />
       <workItem from="1558204652954" duration="35613000" />
-      <workItem from="1558317425616" duration="4214000" />
+      <workItem from="1558317425616" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -396,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558252761463</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix hint ui bugs">
+      <created>1558321666603</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558321666603</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123178000" />
+    <option name="totallyTimeSpent" value="125229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,10 +440,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="174" width="1110" height="631" extended-state="0" />
+    <frame x="424" y="329" width="1110" height="631" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19333333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19333333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -469,7 +497,8 @@
     <MESSAGE value="text string" />
     <MESSAGE value="Ontrigger enter &amp; exit" />
     <MESSAGE value="start and end scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="start and end scene" />
+    <MESSAGE value="fix hint ui bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix hint ui bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HintInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-548">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <marker date="1558321591456" expanded="false" signature="6:114" ph="..." />
             <marker date="1558321591456" expanded="true" signature="153:2269" ph="{...}" />
@@ -694,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1985">
-          <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+        <state relative-caret-position="-83">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
           <folding>
             <marker date="1558321636300" expanded="false" signature="6:166" ph="..." />
             <marker date="1558321636300" expanded="true" signature="213:4974" ph="{...}" />
@@ -721,6 +750,24 @@
             <marker date="1558321636300" expanded="true" signature="4758:4806" ph="{...}" />
             <marker date="1558321636300" expanded="true" signature="4863:4972" ph="{...}" />
             <marker date="1558321636300" expanded="true" signature="4915:4965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding>
+            <marker date="1558341896757" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558341896757" expanded="true" signature="116:1253" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="168:280" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="438:451" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="509:1251" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="711:1245" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="887:1235" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="969:1102" ph="{...}" />
+            <marker date="1558341896757" expanded="true" signature="1123:1221" ph="{...}" />
           </folding>
         </state>
       </provider>

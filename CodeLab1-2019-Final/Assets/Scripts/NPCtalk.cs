@@ -15,7 +15,7 @@ public class NPCtalk : MonoBehaviour
         "A seeker who can hear the sound of treasure will come today, that must be you!", 
         "JadeFox is known as a great monster.", 
         "She left a treasure chest here that requires three special items to unlock.", 
-        "All of the three items are in the town, but no one have seen them before.",
+        "All of the three items are in the town, but no one has seen them before.",
         "If you can hear the sounds made by those items, that would be very helpful."
     };
 

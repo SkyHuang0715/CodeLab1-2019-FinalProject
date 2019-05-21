@@ -66,111 +66,117 @@ public class SphereCastpickup : MonoBehaviour
             newHints = GameObject.Find("HintPanel").GetComponent<HintInfo>();
             
             //在什么都没碰到的时候出现提示
-            if (staying == false)
-            {
-                Debug.Log(staying);
-                newHints.HintMes1();
-            }
-            else 
+            int i = 0;
             
             {
-                 //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
-            
 
-            
-            //那当你碰到的时候呢
-            foreach (Collider c in pickobjs)
-            {
-                //检测是否碰到钥匙
-                if (c.gameObject.name == "gold_key" && GameObject.Find("Item: Golden Key") == null)
-                {
-                    newHints.HintMes0();
-
-                    pickupitem0 = true;
-                    Destroy(c.gameObject, 2);
-                    inv.AddItem(0);
- 
-                }
-                else
-                {
-                    //newHints.mes0 = true;
-                }
                 
+            }
 
-                //检测是否开箱拿到玉眼
-                if (c.gameObject.name == "JadeEyeChest")
+
+            {
+                //如果存在碰撞就什么也不做（这里一定要写，因为是个反复会出现的提示）
+
+
+                if (i < pickobjs.Length)
                 {
-                    if (findkey && GameObject.Find("Item: Jade Eye") == null) //你拿到钥匙了吗（前置要求的写法）
+                    //那当你碰到的时候呢
+                    foreach (Collider c in pickobjs)
                     {
-                        newHints.HintMes0();
-                        
-                        pickupitem1 = true;
-                        //Destroy(c.gameObject,2);
-                        inv.AddItem(1);
+                        //检测是否碰到钥匙
+                        if (c.gameObject.name == "gold_key" && GameObject.Find("Item: Golden Key") == null)
+                        {
+                            newHints.HintMes0();
 
-                    }
-                    //如果没有钥匙
-                    else if(findkey == false)
-                    {
-                        newHints.HintMes2();
-                        //newHints.HintMes();
-                    }
-                    //如果已经捡过
-                    else
-                    {
-                         newHints.HintMes1();
-                    }
+                            pickupitem0 = true;
+                            Destroy(c.gameObject, 2);
+                            inv.AddItem(0);
 
-                }
+                        }
+                        else
+                        {
+                            //newHints.mes0 = true;
+                        }
 
-                //检测青云剑
-                if (c.gameObject.name == "LegendSword" && GameObject.Find("Item: The Legend Sword") == null)
-                {
-                    newHints.HintMes0();
-                    
-                    pickupitem2 = true;
-                    Destroy(c.gameObject, 2);
-                    inv.AddItem(2);
+
+                        //检测是否开箱拿到玉眼
+                        if (c.gameObject.name == "JadeEyeChest")
+                        {
+                            if (findkey && GameObject.Find("Item: Jade Eye") == null) //你拿到钥匙了吗（前置要求的写法）
+                            {
+                                newHints.HintMes0();
+
+                                pickupitem1 = true;
+                                //Destroy(c.gameObject,2);
+                                inv.AddItem(1);
+
+                            }
+                            //如果没有钥匙
+                            else if (findkey == false)
+                            {
+                                newHints.HintMes2();
+                                //newHints.HintMes();
+                            }
+                            //如果已经捡过
+                            else
+                            {
+                                newHints.HintMes1();
+                            }
+
+                        }
+
+                        //检测青云剑
+                        if (c.gameObject.name == "LegendSword" && GameObject.Find("Item: The Legend Sword") == null)
+                        {
+                            newHints.HintMes0();
+
+                            pickupitem2 = true;
+                            Destroy(c.gameObject, 2);
+                            inv.AddItem(2);
+                        }
+                        else
+                        {
+
+                        }
+
+                        //检测宝石戒指
+                        if (c.gameObject.name == "gemRing")
+                        {
+                            newHints.HintMes0();
+
+                            pickupitem3 = true;
+                            Destroy(c.gameObject, 2);
+                            inv.AddItem(3);
+                        }
+                        else
+                        {
+
+                        }
+
+                        //最终的宝藏
+                        if (c.gameObject.name == "TreasureChest")
+                        {
+                            if (findjade && findring && findsword) //你拿到所有三样物品了吗（前置要求的写法）
+                            {
+                                pickupitem0 = true;
+                                //Destroy(c.gameObject,2);
+                                inv.AddItem(0);
+                                SceneManager.LoadScene(2);
+                            }
+                            //那如果没拿全东西呢
+                            else
+                            {
+                                newHints.HintMes3();
+                            }
+
+                        }
+                    }
                 }
                 else
                 {
                     newHints.HintMes1();
                 }
-
-                //检测宝石戒指
-                if (c.gameObject.name == "gemRing")
-                {
-                    newHints.HintMes0();
-                    
-                    pickupitem3 = true;
-                    Destroy(c.gameObject, 2);
-                    inv.AddItem(3);
-                }
-                else
-                {
-                    newHints.HintMes1();
-                }
-
-                //最终的宝藏
-                if (c.gameObject.name == "TreasureChest")
-                {
-                    if (findjade && findring && findsword) //你拿到所有三样物品了吗（前置要求的写法）
-                    {
-                        pickupitem0 = true;
-                        //Destroy(c.gameObject,2);
-                        inv.AddItem(0);
-                        SceneManager.LoadScene(2);
-                    }
-                    //那如果没拿全东西呢
-                    else
-                    {
-                        newHints.HintMes3();
-                    }
-
-                }
             }
-            }
-           
         }
         
          Debug.Log(staying);

@@ -36,7 +36,7 @@ public class SphereCastpickup : MonoBehaviour
     
     //让我们来加入提示语吧
     public HintInfo newHints;
-    public int staying =0;
+    public bool staying;
     
     // Start is called before the first frame update
     void Start()
@@ -66,7 +66,7 @@ public class SphereCastpickup : MonoBehaviour
             newHints = GameObject.Find("HintPanel").GetComponent<HintInfo>();
             
             //在什么都没碰到的时候出现提示
-            if (staying == 0)
+            if (staying == false)
             {
                 Debug.Log(staying);
                 newHints.HintMes1();
@@ -181,7 +181,7 @@ public class SphereCastpickup : MonoBehaviour
     {
         if (pickobj.CompareTag("ItemToFind"))
         {
-            staying ++;
+            staying= true;
         }
  
     }
@@ -189,7 +189,7 @@ public class SphereCastpickup : MonoBehaviour
     {
         if (pickobj.CompareTag("ItemToFind"))
         { 
-            staying --;
+            staying= false;
         }
 
     }

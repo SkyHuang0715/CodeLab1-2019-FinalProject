@@ -179,7 +179,7 @@ public class SphereCastpickup : MonoBehaviour
             }
         }
         
-         Debug.Log(staying);
+         //Debug.Log(staying);
     }
 
     //测一测物品们有没有被碰到呢

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b6df06e-9bba-4533-93e6-1315c56a90e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1-2019-Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,21 +15,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
               <folding>
-                <marker date="1558381448169" expanded="false" signature="6:150" ph="..." />
-                <marker date="1558381448169" expanded="true" signature="188:2696" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="283:768" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="982:1244" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="1302:2694" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="1317:1737" ph="/* 从角色位置向NPC发射一条经过鼠标位置的射线 ... */" />
-                <marker date="1558381448169" expanded="true" signature="1785:2548" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="1833:1885" ph="/* Debug.Log(&quot;Yes&quot;); ... */" />
-                <marker date="1558381448169" expanded="true" signature="1965:2534" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="2063:2308" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="2333:2516" ph="{...}" />
-                <marker date="1558381448169" expanded="true" signature="2573:2688" ph="{...}" />
+                <marker date="1558406865588" expanded="false" signature="6:150" ph="..." />
+                <marker date="1558406865588" expanded="true" signature="188:2695" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="283:767" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="981:1243" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="1301:2693" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="1316:1736" ph="/* 从角色位置向NPC发射一条经过鼠标位置的射线 ... */" />
+                <marker date="1558406865588" expanded="true" signature="1784:2547" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="1832:1884" ph="/* Debug.Log(&quot;Yes&quot;); ... */" />
+                <marker date="1558406865588" expanded="true" signature="1964:2533" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="2062:2307" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="2332:2515" ph="{...}" />
+                <marker date="1558406865588" expanded="true" signature="2572:2687" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -138,16 +135,16 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SphereCastpickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="244" />
-    <option name="y" value="189" />
+    <option name="x" value="397" />
+    <option name="y" value="153" />
     <option name="width" value="1110" />
     <option name="height" value="631" />
   </component>
@@ -239,7 +236,7 @@
       <workItem from="1558161532213" duration="8338000" />
       <workItem from="1558204652954" duration="35613000" />
       <workItem from="1558317425616" duration="13129000" />
-      <workItem from="1558372896684" duration="18055000" />
+      <workItem from="1558372896684" duration="18285000" />
     </task>
     <task id="LOCAL-00001" summary="Drag item works">
       <created>1557697137605</created>
@@ -430,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558403359392</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="final check and debug">
+      <created>1558406962100</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1558406962100</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150148000" />
+    <option name="totallyTimeSpent" value="150378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="189" width="1110" height="631" extended-state="1" />
+    <frame x="189" y="191" width="1110" height="631" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19714285" />
@@ -875,21 +879,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPCtalk.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
           <folding>
-            <marker date="1558381448169" expanded="false" signature="6:150" ph="..." />
-            <marker date="1558381448169" expanded="true" signature="188:2696" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="283:768" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="982:1244" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="1302:2694" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="1317:1737" ph="/* 从角色位置向NPC发射一条经过鼠标位置的射线 ... */" />
-            <marker date="1558381448169" expanded="true" signature="1785:2548" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="1833:1885" ph="/* Debug.Log(&quot;Yes&quot;); ... */" />
-            <marker date="1558381448169" expanded="true" signature="1965:2534" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="2063:2308" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="2333:2516" ph="{...}" />
-            <marker date="1558381448169" expanded="true" signature="2573:2688" ph="{...}" />
+            <marker date="1558406865588" expanded="false" signature="6:150" ph="..." />
+            <marker date="1558406865588" expanded="true" signature="188:2695" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="283:767" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="981:1243" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="1301:2693" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="1316:1736" ph="/* 从角色位置向NPC发射一条经过鼠标位置的射线 ... */" />
+            <marker date="1558406865588" expanded="true" signature="1784:2547" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="1832:1884" ph="/* Debug.Log(&quot;Yes&quot;); ... */" />
+            <marker date="1558406865588" expanded="true" signature="1964:2533" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="2062:2307" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="2332:2515" ph="{...}" />
+            <marker date="1558406865588" expanded="true" signature="2572:2687" ph="{...}" />
           </folding>
         </state>
       </provider>
